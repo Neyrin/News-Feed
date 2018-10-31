@@ -51,6 +51,10 @@ usort($articles, "sortFunctionDate");
 
       <button onclick="toTopFunction()" id="topBtn" title="Go to top">^</button>
 
+      <footer>
+         <p class='copyright'> Copyright &copy Isa Areschoug, Yrgo <?= date('Y'); ?></p>
+      </footer>
+      
       <script src='script.js'></script>
    </body>
 </html>

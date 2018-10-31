@@ -9,8 +9,8 @@ Assignment 1 in PHP for the webdeveloper-class of 2018 @ Yrgo.
 ## Tested
 - [ ] Firefox
 - [ ] Chrome
-- [ ] Brave
-by
-Tester 1
-Tester 2
+- [ ] Brave  
+by  
+Tester 1  
+Tester 2  
 

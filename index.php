@@ -47,14 +47,14 @@ usort($articles, "sortFunctionDate");
 
             </div> <!--/article-->
          <?php endforeach; ?>
+         <button onclick='toTopFunction()' id='topBtn' title='Go to top'>^</button>
       </div> <!--/newsFeed-->
 
-      <button onclick="toTopFunction()" id="topBtn" title="Go to top">^</button>
 
       <footer>
          <p class='copyright'> Copyright &copy Isa Areschoug, Yrgo <?= date('Y'); ?></p>
       </footer>
-      
-      <script src='script.js'></script>
+
+      <script src='functions.js'></script>
    </body>
 </html>

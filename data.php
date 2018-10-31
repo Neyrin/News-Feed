@@ -13,82 +13,82 @@ $articles = [
    [
     //Mal
    'title' => 'Captain\'s log',
-   'content' => 'Shiny!', //TODO länka int txt fil
+   'content' => file_get_contents('./Articles/CaptainsLog.txt'),
    'date' => '2016-06-12',
-   'likes'=> 15, //TODO om tid finns, gör denna responsiv
+   'likes'=> 17,
    'authorID' => '12345',
    ],
    [
     //Wash
    'title' => 'Curse your sudden but inevitable betrayal!',
-   'content' => 'Shiny!', //TODO länka int txt fil
+   'content' => file_get_contents('./Articles/CurseYourBetrayal.txt'),
    'date' => '2016-12-14',
-   'likes'=> 15, //TODO om tid finns, gör denna responsiv
+   'likes'=> 32,
    'authorID' => '23451',
    ],
    [
     //Kaylee
    'title' => 'Strawberry Pie',
-   'content' => 'Shiny!', //TODO länka int txt fil
+   'content' => file_get_contents('./Articles/StrawberryPie.txt'),
    'date' => '2017-10-30',
-   'likes'=> 15, //TODO om tid finns, gör denna responsiv
+   'likes'=> 25,
    'authorID' => '34512',
    ],
    [
     //Jayne
    'title' => 'Why my hat is awesome!',
-   'content' => 'Shiny!', //TODO länka int txt fil
+   'content' => file_get_contents('./Articles/WhyMyHatIsAwesome.txt'),
    'date' => '2017-09-05',
-   'likes'=> 15, //TODO om tid finns, gör denna responsiv
+   'likes'=> 11,
    'authorID' => '45123',
    ],
    [
     //Zoë
    'title' => 'I\'m surrounded by idiots',
-   'content' => 'Shiny!', //TODO länka int txt fil
+   'content' => file_get_contents('./Articles/ImSurroundedByIdiots.txt'),
    'date' => '2016-07-26',
-   'likes'=> 15, //TODO om tid finns, gör denna responsiv
+   'likes'=> 15,
    'authorID' => '51234',
    ],
    [
     //Mal
    'title' => 'Captain\'s log nr.2',
-   'content' => 'Shiny!', //TODO länka int txt fil
+   'content' => file_get_contents('./Articles/CaptainsLognr2.txt'),
    'date' => '2017-06-21',
-   'likes'=> 15, //TODO om tid finns, gör denna responsiv
+   'likes'=> 18,
    'authorID' => '12345',
 
    ],
    [
     //Kaylee
    'title' => 'Why all the unecessary parts?',
-   'content' => 'Shiny!', //TODO länka int txt fil
+   'content' => file_get_contents('./Articles/WhyAllTheParts.txt'),
    'date' => '2016-09-23',
-   'likes'=> 15, //TODO om tid finns, gör denna responsiv
+   'likes'=> 23,
    'authorID' => '34512',
    ],
    [
     //Wash
    'title' => 'I\'m a leaf on the wind',
-   'content' => 'Shiny!', //TODO länka int txt fil
+   'content' => file_get_contents('./Articles/ImALeafOnTheWind.txt'),
    'date' => '2016-08-14',
-   'likes'=> 15, //TODO om tid finns, gör denna responsiv
+   'likes'=> 19,
    'authorID' => '23451',
    ],
    [
     //Zoë
    'title' => 'Nice place for an ambush',
-   'content' => 'Shiny!', //TODO länka int txt fil
+   'content' => file_get_contents('./Articles/NicePlaceForAnAmbush.txt'),
    'date' => '2017-07-12',
-   'likes'=> 15, //TODO om tid finns, gör denna responsiv
+   'likes'=> 15,
    'authorID' => '51234',
    ],
    [
     //Jayne
    'title' => 'Meet Vera',
-   'content' => 'Shiny!', //TODO länka int txt fil
+   'content' => file_get_contents('./Articles/MeetVera.txt'),
    'date' => '2017-02-18',
-   'likes'=> 15, //TODO om tid finns, gör denna responsiv
+   'likes'=> 9,
    'authorID' => '45123',
    ],
 ];

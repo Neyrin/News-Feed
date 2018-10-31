@@ -6,15 +6,8 @@ require __DIR__.'/functions.php';
 usort($articles, "sortFunctionDate");
 
 ?>
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <title>Fake News</title>
-      <link rel='stylesheet' href='fakenews.css'>
-      <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-   </head>
-   <body>
+<?php require __DIR__.'/header.html'; ?>
+
       <header class='siteHeader'>
          <h1>Fake News</h1>
       </header> <!--siteHeader-->
@@ -55,6 +48,4 @@ usort($articles, "sortFunctionDate");
          <p class='copyright'> Copyright &copy Isa Areschoug, Yrgo <?= date('Y'); ?></p>
       </footer>
 
-      <script src='script.js'></script>
-   </body>
-</html>
+<?php require __DIR__.'/footer.html'; ?>

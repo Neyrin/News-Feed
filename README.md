@@ -7,10 +7,11 @@ Assignment 1 in PHP for the webdeveloper-class of 2018 @ Yrgo.
 - Open the index.php file in your browser.
 
 ## Tested
-- [ ] Firefox
-- [ ] Chrome
-- [ ] Brave  
+- [x] Firefox
+- [x] Chrome
+- [x] Safari
+- [x] Brave  
 by  
-Tester 1  
-Tester 2  
+Lovisa Hallgren  
+Linn Johansson  
 

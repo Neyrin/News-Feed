@@ -14,7 +14,14 @@ Assignment 1 in PHP for the webdeveloper-class of 2018 @ Yrgo.
 - [x] Chrome
 - [x] Safari
 - [x] Brave  
-by  
-Lovisa Hallgren  
-Linn Johansson  
+*by*    
+*Lovisa Hallgren*   
+*Linn Johansson*      
+
+
+## Languages used
+- PHP
+- JavaScript
+- HTML
+- CSS
 

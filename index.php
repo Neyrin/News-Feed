@@ -55,6 +55,6 @@ usort($articles, "sortFunctionDate");
          <p class='copyright'> Copyright &copy Isa Areschoug, Yrgo <?= date('Y'); ?></p>
       </footer>
 
-      <script src='functions.js'></script>
+      <script src='script.js'></script>
    </body>
 </html>

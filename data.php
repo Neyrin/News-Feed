@@ -1,5 +1,5 @@
 <?php
-
+declare(strict_types=1);
 
 $authors = [
    12345 => 'Malcolm Reynolds',
@@ -88,7 +88,7 @@ $articles = [
    'title' => 'Meet Vera',
    'content' => file_get_contents('./Articles/MeetVera.txt'),
    'date' => '2017-02-18',
-   'likes'=> 9, 
+   'likes'=> 9,
    'authorID' => '45123',
    ],
 ];

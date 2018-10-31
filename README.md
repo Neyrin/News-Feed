@@ -1,3 +1,6 @@
+<img src='https://media.giphy.com/media/LpWkBPb5lvPdm/giphy.gif'>
+
+
 # News-Feed
 Assignment 1 in PHP for the webdeveloper-class of 2018 @ Yrgo.
 
